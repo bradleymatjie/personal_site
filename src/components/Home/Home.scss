@@ -1,0 +1,16 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #38A2D7, #561139)
+}
+
+.home * {
+    margin: 0;
+}
+
+.home p {
+    font-style: italic;
+}

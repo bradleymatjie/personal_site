@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
+import { Home } from './components/Home/Home';
+import { Nav } from './components/Nav/Nav';
+import { Header } from './components/Header/Header';
+
 function App() {
+  const [menuToggler, setMenuToggler] = useState(false);
+  const [currComponent, setCurrComponent] = useState('Welcome');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        menuTogglerFunction={setMenuToggler}
+        menuTogglerValue={menuToggler}
+        currentComponent={currComponent}
+      />
+      <Home /> 
+      { menuToggler && <Nav setComponentFunction={setCurrComponent} /> }
     </div>
   );
 }
