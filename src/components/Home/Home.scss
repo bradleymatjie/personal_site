@@ -12,10 +12,13 @@
 
   &_socials-container {
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
     position: relative;
-    right: 20px;
     top: 10px;
+    padding: 0;
+    width: 150px;
+    height: 50px;
 
     & img {
         width: 30px;
