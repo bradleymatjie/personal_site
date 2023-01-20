@@ -17,7 +17,7 @@ export const Nav = ({ setComponentFunction }) => {
                 }}
             >
             </li>
-
+            
             <li
                 style={{backgroundImage: `url(${aboutIcon})`}}
                 onClick={() => {
@@ -26,16 +26,16 @@ export const Nav = ({ setComponentFunction }) => {
             ></li>
 
             <li
-                style={{backgroundImage: `url(${portfolioIcon})`}}
+                style={{backgroundImage: `url(${servicesIcon})`}}
                 onClick={() => {
-                    setComponentFunction('Portfolio')
+                    setComponentFunction('Services')
                 }}
             ></li>
 
             <li
-                style={{backgroundImage: `url(${servicesIcon})`}}
+                style={{backgroundImage: `url(${portfolioIcon})`}}
                 onClick={() => {
-                    setComponentFunction('Services')
+                    setComponentFunction('Portfolio')
                 }}
             ></li>
 

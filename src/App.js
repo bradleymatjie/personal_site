@@ -4,6 +4,7 @@ import './App.css';
 import { Home } from './components/Home/Home';
 import { Nav } from './components/Nav/Nav';
 import { Header } from './components/Header/Header';
+import { About } from './components/About/About';
 
 function App() {
   const [menuToggler, setMenuToggler] = useState(false);
@@ -16,7 +17,8 @@ function App() {
         menuTogglerValue={menuToggler}
         currentComponent={currComponent}
       />
-      <Home /> 
+      <Home />
+      <About />
       { menuToggler && <Nav setComponentFunction={setCurrComponent} /> }
     </div>
   );
