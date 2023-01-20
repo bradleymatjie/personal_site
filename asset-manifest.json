@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.252a7464.css",
+    "main.css": "/personal_site/static/css/main.21bc4417.css",
     "main.js": "/personal_site/static/js/main.710a7135.js",
     "static/media/ssaint.png": "/personal_site/static/media/ssaint.a6603e80bd2a6533e9f9.png",
     "static/media/services.PNG": "/personal_site/static/media/services.bd733c7e56eabe31a217.PNG",
@@ -12,11 +12,11 @@
     "static/media/email.png": "/personal_site/static/media/email.a2f2146f929409405da0.png",
     "static/media/home.PNG": "/personal_site/static/media/home.98c2e7d507642d6be519.PNG",
     "index.html": "/personal_site/index.html",
-    "main.252a7464.css.map": "/personal_site/static/css/main.252a7464.css.map",
+    "main.21bc4417.css.map": "/personal_site/static/css/main.21bc4417.css.map",
     "main.710a7135.js.map": "/personal_site/static/js/main.710a7135.js.map"
   },
   "entrypoints": [
-    "static/css/main.252a7464.css",
+    "static/css/main.21bc4417.css",
     "static/js/main.710a7135.js"
   ]
 }
