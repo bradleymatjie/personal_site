@@ -10,41 +10,51 @@ export const Nav = ({ setComponentFunction }) => {
 
     return (
         <nav className="nav">
-            <li
+            <a href='#home'>
+              <li
                 style={{backgroundImage: `url(${homeIcon})`}}
                 onClick={() => {
                     setComponentFunction('Home')
                 }}
-            >
-            </li>
+              >
+              </li>
+            </a>
             
-            <li
+            <a href='#about'>
+              <li
                 style={{backgroundImage: `url(${aboutIcon})`}}
                 onClick={() => {
                     setComponentFunction('About')
                 }}
-            ></li>
+              ></li>
+            </a>
 
-            <li
+            <a href='#services'> 
+              <li
                 style={{backgroundImage: `url(${servicesIcon})`}}
                 onClick={() => {
                     setComponentFunction('Services')
                 }}
-            ></li>
+              ></li>
+            </a>
 
-            <li
+            <a href='#portfolio'>  
+              <li
                 style={{backgroundImage: `url(${portfolioIcon})`}}
                 onClick={() => {
                     setComponentFunction('Portfolio')
                 }}
-            ></li>
+              ></li>
+            </a>
 
-            <li
+            <a href='#contact'>
+              <li
                 style={{backgroundImage: `url(${contactIcon})`}}
                 onClick={() => {
                     setComponentFunction('Contact')
                 }}
-            ></li>
+              ></li>
+            </a>
         </nav>
     );
 }

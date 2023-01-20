@@ -1,0 +1,46 @@
+.portfolio {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #705f93, #8a5082, #758e87);
+  padding-top: 30px;
+  border-radius: 20px 20px 0 0;
+  position: sticky;
+  top: 100px;
+
+  & h2 {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & div {
+      width: 80%;
+      height: 150px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      & :first-child {
+        margin-right: 20px;
+        background-color: yellow;
+      }
+
+      & a {
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #fff;
+        padding: 10px;
+        background-color: #00ffff;
+      }
+    }
+  }
+}
