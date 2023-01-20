@@ -58,9 +58,9 @@
     &_items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 5px;
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
 
         & div {
