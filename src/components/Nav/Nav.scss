@@ -1,18 +1,24 @@
 .nav {
     display: flex;
-    justify-content: space-evenly;
-    gap: 5px;
-    list-style: none;
-    height: 45px;
+    justify-content: center;
     position: fixed;
+    z-index: 10;
     bottom: 30px;
-    left: 30px;
-    right: 30px;
-    border-radius: 20px;
-    padding: 7px;
-    box-shadow: 1px 1px 5px 1px grey;
-    font-size: 12px;
-    background-color: #233a4e;
+    left: 0;
+    right: 0;
+
+    &_container {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      height: 45px;
+      width: 250px;
+      border-radius: 20px;
+      padding: 7px;
+      box-shadow: 1px 1px 5px 1px grey;
+      background-color: #233a4e;
+      z-index: 10;
+    }
 
     & a {
         text-decoration: none;

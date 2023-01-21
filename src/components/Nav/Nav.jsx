@@ -10,6 +10,7 @@ export const Nav = ({ setComponentFunction }) => {
 
     return (
         <nav className="nav">
+          <ul className='nav_container'>
             <a href='#home'>
               <li
                 style={{backgroundImage: `url(${homeIcon})`}}
@@ -55,6 +56,7 @@ export const Nav = ({ setComponentFunction }) => {
                 }}
               ></li>
             </a>
+          </ul>
         </nav>
     );
 }

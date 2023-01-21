@@ -2,6 +2,7 @@ import './Portfolio.scss';
 
 import myBike from '../../media/myBike.png';
 import todoApp from '../../media/todoApp.png';
+import weatherApp from '../../media/weatherApp.png';
 
 export const Portfolio = () => {
     return (
@@ -25,9 +26,12 @@ export const Portfolio = () => {
               <a href="https://github.com/bradleymatjie/react_todo-app">CODE</a>
             </div>
 
-            <div className='portfolio_WEATHER-APP'>
-                <a href="https://bradleymatjie.github.io/WEATHER-APP/">DEMO</a>
-                <a href="https://github.com/bradleymatjie/WEATHER-APP">CODE</a>
+            <div 
+              className='portfolio_WEATHER-APP'
+              style={{backgroundImage: `url(${weatherApp})`}}
+            >
+              <a href="https://bradleymatjie.github.io/WEATHER-APP/">DEMO</a>
+              <a href="https://github.com/bradleymatjie/WEATHER-APP">CODE</a>
             </div>
            </div>
         </section>
