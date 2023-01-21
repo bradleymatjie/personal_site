@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.4399b6fa.css",
-    "main.js": "/personal_site/static/js/main.f9a15fc2.js",
+    "main.css": "/personal_site/static/css/main.f8e9450b.css",
+    "main.js": "/personal_site/static/js/main.67ac6b5e.js",
     "static/media/ssaint.png": "/personal_site/static/media/ssaint.a6603e80bd2a6533e9f9.png",
+    "static/media/weatherApp.png": "/personal_site/static/media/weatherApp.f22d31fe323655bf365c.png",
     "static/media/myBike.png": "/personal_site/static/media/myBike.62412c4d2872f41a6e37.png",
+    "static/media/twitter.png": "/personal_site/static/media/twitter.570a83358b62aadac17a.png",
     "static/media/services.PNG": "/personal_site/static/media/services.bd733c7e56eabe31a217.PNG",
+    "static/media/phone-call.png": "/personal_site/static/media/phone-call.9f67e819001cd616ba13.png",
     "static/media/todoApp.png": "/personal_site/static/media/todoApp.325ff498d510451c8061.png",
     "static/media/about.PNG": "/personal_site/static/media/about.c920752422c11377083e.PNG",
+    "static/media/facebook.png": "/personal_site/static/media/facebook.01a470d813915c298403.png",
     "static/media/contactIcon.PNG": "/personal_site/static/media/contactIcon.e84f02926803f81f4c65.PNG",
     "static/media/portfolio.PNG": "/personal_site/static/media/portfolio.e1ea27a4bdacbfb2d92f.PNG",
     "static/media/github.png": "/personal_site/static/media/github.e8efa7f43ecd05b0a5e4.png",
@@ -14,11 +18,11 @@
     "static/media/email.png": "/personal_site/static/media/email.a2f2146f929409405da0.png",
     "static/media/home.PNG": "/personal_site/static/media/home.98c2e7d507642d6be519.PNG",
     "index.html": "/personal_site/index.html",
-    "main.4399b6fa.css.map": "/personal_site/static/css/main.4399b6fa.css.map",
-    "main.f9a15fc2.js.map": "/personal_site/static/js/main.f9a15fc2.js.map"
+    "main.f8e9450b.css.map": "/personal_site/static/css/main.f8e9450b.css.map",
+    "main.67ac6b5e.js.map": "/personal_site/static/js/main.67ac6b5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4399b6fa.css",
-    "static/js/main.f9a15fc2.js"
+    "static/css/main.f8e9450b.css",
+    "static/js/main.67ac6b5e.js"
   ]
 }
