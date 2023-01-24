@@ -2,10 +2,21 @@
   height: 100vh;
   background-image: linear-gradient(to bottom right, #705f93, #8a5082, #758e87);
   padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   & h2 {
     margin: 0;
     margin-bottom: 40px;
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+
+    @media (min-width: 700px) {
+      font-size: 32px;
+    }
   }
 
   &_container {
@@ -13,9 +24,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 75%;
+    max-width: 750px;
 
     & div {
       width: 75%;
+      max-width: 700px;
       height: 120px;
       margin-bottom: 10px;
       border-radius: 15px;
@@ -25,6 +39,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (min-width: 700px) {
+        height: 180px; 
+      }
       
       & :first-child {
         margin-right: 20px;

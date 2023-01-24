@@ -18,6 +18,10 @@
       box-shadow: 1px 1px 5px 1px grey;
       background-color: #233a4e;
       z-index: 10;
+
+      @media (min-width: 700px) {
+        width: 300px;
+      }
     }
 
     & a {
@@ -37,5 +41,9 @@
         cursor: pointer;
         box-shadow: 1px 1px 1px 1px #fff;
         background-color: #fff;
+
+        @media (min-width: 700px) {
+            width: 50px;
+        }
     }
 }

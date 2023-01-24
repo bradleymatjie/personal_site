@@ -15,11 +15,16 @@
        background-position: top right;
        background-repeat: no-repeat;
        background-size: cover;
+
+       @media (min-width: 750px) {
+        height: 40%;
+       }
     }
 
     &_content {
         position: absolute;
         width: 85%;
+        max-width: 700px;
         height: 65%;
         background-color: rgb(255, 255, 255, 0.1);
         backdrop-filter: blur(20px);
@@ -27,6 +32,10 @@
         padding: 5px;
         box-shadow: 1px 1px 50px 1px black;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         & :first-child {
             margin-bottom: 0;
@@ -39,11 +48,17 @@
         &-paragraph {
             border: 2px double grey;
             padding: 5px;
+            max-width: 600px;
+            max-height: 150px;
             font-size: 13px;
             font-style: italic;
             margin-top: 10px;
             background-color: rgb(255, 255, 255, 0.1);
             color: #fff;
+
+            @media (min-width: 700px) {
+                font-size: 18px;
+            }
         }
     }
 }

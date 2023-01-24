@@ -19,6 +19,18 @@
     height: 60%;
     margin-top: 50px;
 
+    @media (min-width: 700px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    
+      & :nth-child(2),
+      & :nth-child(3) {
+        margin-right: 20px;
+      }
+    }
+
+
+
     & div {
       border: 1px solid black;
       width: 150px;
@@ -26,13 +38,46 @@
       height: 130px;
       box-shadow: 1px 1px 4px -1px #fff;
       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 455px) {
+        width: 180px;
+        height: 160px;
+      }
+
+      @media (min-width: 540px) {
+        width: 200px;
+      }
+
+      @media (min-width: 603px) {
+        width: 220px;
+      }
+
+      @media (min-width: 660px) {
+        width: 240px;
+      }
+
+      @media (min-width: 700px) {
+        margin: 10px;
+      }
 
       & h3 {
         font-size: 14px;
+
+        @media (min-width: 700px) {
+          font-size: 18px;
+        }
       }
 
       & p {
         font-size: 12px;
+
+        @media (min-width: 700px) {
+          font-size: 16px;
+        }
       }
     }
   }
