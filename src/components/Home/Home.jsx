@@ -1,10 +1,11 @@
 import './Home.scss';
+import React from 'react';
 
 import github from '../../media/github.png';
 import linkedin from '../../media/linkedin.png';
 import email from '../../media/email.png';
 
-export const Home = () => {
+export const Home = React.memo(() => {
     return (
         <section className='home' id='home'>
             <p>Hello there, i'm</p>
@@ -29,4 +30,4 @@ export const Home = () => {
             </ul>
         </section>
     );
-}
+})

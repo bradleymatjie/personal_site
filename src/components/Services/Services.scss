@@ -1,10 +1,11 @@
+@import '../../styles_util/util';
+@import '../../styles_util/fonts.scss';
+
 .services {
   height: 100vh;
   background-image: linear-gradient(to bottom left, #2d142c, #510a32);
-  display: flex;
+  @include display;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   & > h1 {
     margin: 0;
@@ -38,10 +39,8 @@
       height: 130px;
       box-shadow: 1px 1px 4px -1px #fff;
       border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include display;
+     flex-direction: column;
 
       @media (min-width: 455px) {
         width: 180px;
@@ -66,6 +65,8 @@
 
       & h3 {
         font-size: 14px;
+        font-family: 'Lora';
+        font-weight: 600;
 
         @media (min-width: 700px) {
           font-size: 18px;

@@ -2,8 +2,8 @@ PERSONAL SITE
 
 my own portfolio site
 
-Technologies used:
+` Technologies used:
 - HTML
 - SASS
-- TYPESCRIPT
+- JAVASCRIPT
 - REACT

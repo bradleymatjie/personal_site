@@ -1,9 +1,10 @@
+@import '../../styles_util//util';
+@import '../../styles_util/fonts.scss';
+
 .home {
   height: 100vh;
-  display: flex;
+  @include display;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-image: linear-gradient(to bottom right, #38A2D7, #561139);
 
   & h1 {
@@ -13,7 +14,7 @@
   }
 
   & p {
-    font-style: italic;
+    font-family: 'Dancing Script';
 
     @media (min-width: 700px) {
       font-size: 24px;

@@ -1,10 +1,11 @@
 import './Portfolio.scss';
+import React from 'react';
 
 import myBike from '../../media/myBike.png';
 import todoApp from '../../media/todoApp.png';
 import weatherApp from '../../media/weatherApp.png';
 
-export const Portfolio = () => {
+export const Portfolio = React.memo(() => {
     return (
         <section className='portfolio' id='portfolio'>
            <h2>My work</h2>
@@ -36,4 +37,4 @@ export const Portfolio = () => {
            </div>
         </section>
     );
-}
+})

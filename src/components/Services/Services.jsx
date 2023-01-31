@@ -1,6 +1,7 @@
 import './Services.scss';
+import React from 'react';
 
-export const Services = () => {
+export const Services = React.memo(() => {
     return (
         <section className='services' id='services'>
             <h1>My Services</h1>
@@ -27,4 +28,4 @@ export const Services = () => {
             </div>
         </section>
     );
-}
+})

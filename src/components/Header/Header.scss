@@ -1,3 +1,5 @@
+@import '../../styles_util/util';
+
 .header {
     margin: 0;
     height: 50px;
@@ -32,9 +34,7 @@
   background: transparent;
   box-shadow: 0 10px 20px rgba(255, 254, 254, 0.08);
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include display;
   overflow: hidden;
 }
 

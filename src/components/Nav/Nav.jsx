@@ -1,4 +1,5 @@
 import './Nav.scss';
+import React from 'react';
 
 import homeIcon from '../../media/home.PNG';
 import aboutIcon from '../../media/about.PNG';
@@ -6,7 +7,7 @@ import portfolioIcon from '../../media/portfolio.PNG';
 import contactIcon from '../../media/contactIcon.PNG';
 import servicesIcon from '../../media/services.PNG';
 
-export const Nav = ({ setComponentFunction }) => {
+export const Nav = React.memo(({ setComponentFunction }) => {
 
     return (
         <nav className="nav">
@@ -59,4 +60,4 @@ export const Nav = ({ setComponentFunction }) => {
           </ul>
         </nav>
     );
-}
+})

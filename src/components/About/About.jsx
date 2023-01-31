@@ -1,8 +1,9 @@
 import './About.scss';
+import React from 'react';
 
 import saint from '../../media/ssaint.png';
 
-export const About = () => {
+export const About = React.memo(() => {
 
     return (
         <section className='about' id='about'>
@@ -26,9 +27,11 @@ export const About = () => {
                         <div>REACT</div>
                         <div>NPM</div>
                         <div>GIT</div>
+                        <div>MySQL</div>
+                        <div>API</div>
                     </div>
                 </div>
             </div>
         </section>
     );
-}
+})

@@ -1,11 +1,12 @@
+@import '../../styles_util//util';
+
+
 .portfolio {
   height: 100vh;
   background-image: linear-gradient(to bottom right, #705f93, #8a5082, #758e87);
   padding-top: 30px;
-  display: flex;
+  @include display;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   & h2 {
     margin: 0;
@@ -20,10 +21,8 @@
   }
 
   &_container {
-    display: flex;
+    @include display;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 75%;
     max-width: 750px;
 
@@ -33,12 +32,8 @@
       height: 120px;
       margin-bottom: 10px;
       border-radius: 15px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include backgroundProperty;
+      @include display;
 
       @media (min-width: 700px) {
         height: 180px; 

@@ -1,10 +1,10 @@
+@import '../../styles_util/util';
+
 .contact {
   height: 100vh;
   background-image: linear-gradient(to bottom left, #7dafc2, #2f4f4f);
-  display: flex;
+  @include display;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   &_container {
     display: flex;

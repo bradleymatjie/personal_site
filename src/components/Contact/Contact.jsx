@@ -1,10 +1,11 @@
 import './Contact.scss';
+import React from 'react';
 
 import phone from '../../media/phone-call.png';
 import fb from '../../media/facebook.png';
 import twitter from '../../media/twitter.png';
 
-export const Contact = () => {
+export const Contact = React.memo(() => {
     return (
         <section className='contact' id='contact'>
             <h1>LET'S TALK</h1>
@@ -28,4 +29,4 @@ export const Contact = () => {
             </div>
         </section>
     );
-}
+})
