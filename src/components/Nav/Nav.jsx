@@ -1,5 +1,6 @@
 import './Nav.scss';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 import homeIcon from '../../media/home.PNG';
 import aboutIcon from '../../media/about.PNG';
@@ -10,7 +11,10 @@ import servicesIcon from '../../media/services.PNG';
 export const Nav = React.memo(({ setComponentFunction }) => {
 
     return (
-        <nav className="nav">
+        <motion.nav className="nav"
+          initial={{ y: "50px" }}
+          animate={{ y: 0 }}
+        >
           <ul className='nav_container'>
             <a href='#home'>
               <li
@@ -58,6 +62,6 @@ export const Nav = React.memo(({ setComponentFunction }) => {
               ></li>
             </a>
           </ul>
-        </nav>
+        </motion.nav>
     );
 })

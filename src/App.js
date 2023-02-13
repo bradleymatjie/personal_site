@@ -9,6 +9,7 @@ import { Services } from './components/Services/Services';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Contact } from './components/Contact/Contact';
 
+
 function App() {
   const [menuToggler, setMenuToggler] = useState(false);
   const [currComponent, setCurrComponent] = useState('Welcome');
