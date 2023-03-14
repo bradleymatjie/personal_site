@@ -8,7 +8,7 @@ import { About } from './components/About/About';
 import { Services } from './components/Services/Services';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Contact } from './components/Contact/Contact';
-
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   const [menuToggler, setMenuToggler] = useState(false);
@@ -26,7 +26,11 @@ function App() {
       <Services />
       <Portfolio />
       <Contact />
-      { menuToggler && <Nav setComponentFunction={setCurrComponent} /> }
+      { menuToggler && <Nav setComponentFunction={setCurrComponent} currentComponent={currComponent} /> }
+      <Footer 
+        menuTogglerFunction={setMenuToggler}
+        menuTogglerValue={menuToggler}
+      />
     </div>
   );
 }

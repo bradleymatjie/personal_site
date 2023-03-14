@@ -1,9 +1,9 @@
-PERSONAL SITE
+# PERSONAL SITE
+- view at: bradleymatjie.github.io/personal_site
 
-my own portfolio site
-
-` Technologies used:
+# Technologies used:
 - HTML
 - SASS
 - JAVASCRIPT
 - REACT
+- FRAMER-MOTION

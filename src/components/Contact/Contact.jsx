@@ -13,7 +13,7 @@ export const Contact = React.memo(() => {
             <div className="contact_container">
                 <div>
                     <img src={phone} alt="phone icon" />
-                    <h2>CALL/WHATSAPP</h2>
+                    <h2>CALL/<span className='whatsapp'>WHATSAPP</span></h2>
                     <a href='tel:+27715538950'>071 553 8950</a>
                 </div>
                 <div>
