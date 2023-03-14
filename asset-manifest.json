@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.b46aaf1d.css",
-    "main.js": "/personal_site/static/js/main.20a99538.js",
+    "main.css": "/personal_site/static/css/main.4de6f96d.css",
+    "main.js": "/personal_site/static/js/main.51e019bf.js",
     "static/media/ssaint.png": "/personal_site/static/media/ssaint.a6603e80bd2a6533e9f9.png",
     "static/media/weatherApp.png": "/personal_site/static/media/weatherApp.f22d31fe323655bf365c.png",
     "static/media/myBike.png": "/personal_site/static/media/myBike.62412c4d2872f41a6e37.png",
@@ -18,11 +18,11 @@
     "static/media/email.png": "/personal_site/static/media/email.a2f2146f929409405da0.png",
     "static/media/home.PNG": "/personal_site/static/media/home.98c2e7d507642d6be519.PNG",
     "index.html": "/personal_site/index.html",
-    "main.b46aaf1d.css.map": "/personal_site/static/css/main.b46aaf1d.css.map",
-    "main.20a99538.js.map": "/personal_site/static/js/main.20a99538.js.map"
+    "main.4de6f96d.css.map": "/personal_site/static/css/main.4de6f96d.css.map",
+    "main.51e019bf.js.map": "/personal_site/static/js/main.51e019bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46aaf1d.css",
-    "static/js/main.20a99538.js"
+    "static/css/main.4de6f96d.css",
+    "static/js/main.51e019bf.js"
   ]
 }
